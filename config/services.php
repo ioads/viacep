@@ -35,4 +35,7 @@ return [
         ],
     ],
 
+    'viacep' => [
+        'baseurl' => env('VIACEP_BASEURL', 'http://viacep.com.br/ws/'),
+    ],
 ];
